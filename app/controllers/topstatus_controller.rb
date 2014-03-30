@@ -1,0 +1,2 @@
+class TopstatusController < ApplicationController
+end
