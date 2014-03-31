@@ -1,5 +1,6 @@
 Topstatus::Application.routes.draw do
 root "pages#home"
+get "home" => "pages#home"
 get "submit" => "pages#submit"
 
   # The priority is based upon order of creation: first created -> highest priority.
